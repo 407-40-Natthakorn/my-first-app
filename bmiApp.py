@@ -1,4 +1,4 @@
-import streamli as st
+import streamlit as st
 
 st.markdowm("# :yellow[💪แอปพลิเคชันคำนวณค่าดัชนีมวลกาย BMI]")
 st.write("กรอกข้อมูลน้ำหนักและส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
