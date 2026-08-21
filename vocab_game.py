@@ -82,7 +82,6 @@ st.divider()
 
 ans1 = st.text_input(
     "ข้อ 1: An `a _ _ l e` a day keeps the doctor away. 🍎",
-
     value=st.session_state.get("ans1_val","")
 )
 ans2 = st.text_input(
