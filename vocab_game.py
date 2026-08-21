@@ -82,19 +82,19 @@ st.divider()
 
 ans1 = st.text_input(
     "ข้อ 1: A `B a _ _ n a` are a favorite food of monkeys. 🍌",
-    value=st.session_state.ans1_val,
+    value=st.session_state.get("ans1_val","")
 )
 ans2 = st.text_input(
     "ข้อ 2: `L _ m _ n` have a sour taste. 🍋",
-    value=st.session_state.ans2_val,
+    value=st.session_state.get("ans2_val","")
 )
 ans3 = st.text_input(
     "ข้อ 3: A `G i _ _` is something given on a birthday. 🎁",
-    value=st.session_state.ans3_val,
+    value=st.session_state.get("ans3_val","")
 )
 ans4 = st.text_input(
     "ข้อ 4: A `B a _ l _ o _` are commonly used to decorate birthday parties and festive events. 🎈",
-    value=st.session_state.ans4_val,
+    value=st.session_state.get("ans4_val","")
 )
 
 st.session_state.ans1_val = ans1
